@@ -24,3 +24,5 @@ This is a simple yet elegant website created with the help of a free Bootstrap t
 * https://formspree.io/
 ## How to Use it
 After downloading, you can edit the HTML and CSS files to make the changes you want and personalize the template. Check your changes opening the index.html in your browser.
+
+Live : tndyrvld.me
