@@ -1,0 +1,7 @@
+@import "custom";
+
+h1 {
+  &.dangerText {
+    color: red;
+  }
+}
