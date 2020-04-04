@@ -1,7 +1,30 @@
 @import "custom";
 
-h1 {
-  &.dangerText {
-    color: red;
-  }
+:root{
+  --sidebar-flex:1.5;
+  --condiv-flex:6;
+  --fontsize-p:1.2rem;
+  --fontsize-nav:1.6rem;
+  --typing-font:3rem;
+}
+
+* {
+  margin:0;
+  padding: 0;
+}
+body {
+  font-family: 'Raleway';
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.condiv {
+  padding: 100px;
+  background: rgb(255,255,255);
+  background: linear-gradient(245deg, rgba(255,255,255,1) 0%, rgba(199,197,197,1) 49%, rgba(249,249,249,1) 100%);
+  flex:var(--condiv-flex);
 }

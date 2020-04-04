@@ -1,8 +1,47 @@
-/* make the customizations */
-$theme-colors: (
-    "info": tomato,
-    "danger": black
-);
-
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* navbar */
+nav
+{
+padding:60px 30px 0px 30px ;
+background-color: #000000;
+flex:var(--sidebar-flex);
+
+}
+
+nav ul {
+    font-size: var(--fontsize-nav);
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    a {
+        color: white;
+        text-decoration: none !important;
+        
+    }
+    a:hover {
+        font-weight: bold;
+        font-family: 'Permanent Marker', cursive;
+        color: white;
+    }
+
+}
+
+nav ul li {
+    margin: 40px;
+}
+
+// home styles
+.typingEffect {
+    font-size: 35px;
+}
+
+// Skills styles
+
+.progress-bar {
+    background-color: transparent;
+}
